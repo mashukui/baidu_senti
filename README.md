@@ -92,7 +92,7 @@ def sentiment_analysis(text, access_token):
     print("分析结果:", result)
     return result
 ```
-
+---
 **测试 1：**
 
 输入文本：*我今天太伤心了，因为我摔了一跤，呜呜呜*
@@ -104,6 +104,7 @@ def sentiment_analysis(text, access_token):
 - **判定结果：消极**
 <img width="1440" height="875" alt="image" src="https://github.com/user-attachments/assets/231d59b0-33ef-499b-9aea-fa4b7f1af49c" />
 
+---
 
 **测试 2：**
 
@@ -116,6 +117,7 @@ def sentiment_analysis(text, access_token):
 - **判定结果：积极**
 <img width="1440" height="875" alt="image" src="https://github.com/user-attachments/assets/fb3452a8-469d-435f-8d97-a88bdc99cc89" />
 
+---
 
 **测试 3：**
 
